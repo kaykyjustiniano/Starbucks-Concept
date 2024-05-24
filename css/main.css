@@ -1,0 +1,167 @@
+@import url(header.css);
+@import url(conteinerMain.css);
+@import url(background.css);
+@import url(conteudo-1.css);
+@import url(footer.css);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 950px){
+    /* MENU NAVEGAÇÃO */
+    header {
+        width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: 10px auto;
+    }
+
+    /* SEÇÃO PRINCIPAL DO SITE */
+    .conteiner{
+        width: 50vw;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 90px;
+    }
+
+    .conteiner ul{
+        width: 50vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+
+
+
+
+
+
+
+}
+
+@media (max-width: 450px){
+
+    header {
+        width: auto; 
+        padding: 0 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        gap: 20px;
+        margin: 10px auto;
+    }
+    header ul{
+        width: auto;
+        gap: 10px;
+        font-size: 1.5em;
+    
+    }
+
+
+    .conteiner {
+        width: auto;
+        margin: 0 auto;
+    }
+    .conteiner-info {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .conteiner-info h1{
+        font-size: 4em;
+        text-align: center;
+        line-height: 0.8em;
+        margin-bottom: 50px;
+        
+    }
+    .conteiner-info p{
+        text-align: center;
+        font-weight: 500;
+        font-size: 1.3em;
+    }
+    .conteiner-info a{
+        margin: 0.8em auto;
+    }
+    .imagens{
+        position: relative;
+        width: auto;
+        height: 650px; 
+    }
+    .imagens img{
+        rotate: 10deg;
+    }
+    .conteiner ul{
+        display: flex;
+        gap: 2em;
+    }
+    .conteiner ul li i{
+        font-size: 1.8em;
+    }
+
+
+    .conteudo-1{
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+    .conteudo-1 .info{
+
+        padding: 1.2em 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .conteudo-1 .info h3{
+        font-size:3em;
+
+    }
+    .conteudo-1 .info p{
+        padding: 0.7em 0;
+
+    }
+    .conteudo-1 .info a{
+        transform: scale(1.3,1.3 );
+
+    }
+
+
+    .banner img{
+        background-size: cover;
+        width: 100%;
+        border-radius: 5px;
+    }
+
+}

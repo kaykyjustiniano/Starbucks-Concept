@@ -1,0 +1,101 @@
+.conteiner{
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 90px;
+}
+
+.conteiner-info{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.2em;
+}
+.conteiner-info h1{
+    font-size: 5.5em;
+    letter-spacing: 2px;
+}
+.conteiner-info h1 span{
+    color: green;
+    font-weight: 800;
+}
+.conteiner-info p{
+    font-size: 1.5em;
+    letter-spacing: 0.5px;
+}
+.conteiner-info a{
+    display: inline-block;
+    background: green;
+    padding: 12px 18px 12px 18px;
+    text-decoration: none;
+    border-radius: 25px;
+    color: white;
+    margin-top: 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.imagens{
+    position: relative;
+    width: auto;
+    height: 800px; 
+
+}
+
+
+
+
+.imagens img{
+    position: relative;
+    top: 0;
+    animation: moveUpDown 3s infinite alternate;
+    filter: drop-shadow(20px 20px 20px rgba(109, 235, 111, 0.343))
+    
+   
+}
+
+@keyframes moveUpDown {
+    0% {
+      top: 0;
+    }
+    25%{
+        top: 10%;
+        filter: drop-shadow(50px 50px 50px rgba(0, 0, 0, 0.703))
+    }
+
+    100% {
+      top: 20px; /* Ajuste a distância conforme necessário */
+      filter: drop-shadow(100px 100px 100px rgba(0, 0, 0, 0.703))
+      
+    }
+  }
+
+.conteiner ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+}
+.conteiner ul li i{
+    font-size: 20px;
+}
+.conteiner ul li i:hover{
+    color: green;
+}
+

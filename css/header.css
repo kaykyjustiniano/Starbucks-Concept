@@ -1,0 +1,29 @@
+header{
+    width: auto;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+header ul{
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    list-style: none;
+
+}
+header ul li a{
+    font-size: 1.2em;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.613);
+    text-decoration: none;
+}
+header ul li a:hover{
+    color: rgba(8, 144, 39, 0.928);
+}
+
+.logo img{
+    width: 80px;
+}
